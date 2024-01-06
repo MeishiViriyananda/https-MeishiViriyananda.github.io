@@ -1,0 +1,143 @@
+stylessss
+*,html{
+    
+}
+
+.Body-all{
+
+}
+
+.Navbar{
+    width: 100%;
+height: 200vh;
+}
+
+.ulbar{
+background-color: white;
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+list-style: none;
+
+}
+
+
+
+
+.libar{
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px;
+    color: black;
+    font-size: 13px;
+   font-family: poppins;
+   font-weight:400;
+   text-decoration: none;
+   
+}
+
+.libar:hover{
+    background-color: bisque;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 6px;
+    
+}
+.libarpng{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+
+}
+
+.konten{
+    font-size: 40px;
+    font-family: poppins;
+    font-weight:600;
+    margin: 20px;
+    padding: 5px;
+    white-space: nowrap;
+    line-height: 100%;
+}
+
+.TextContent{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+}
+
+
+.button{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+
+}
+
+.button2{
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    font-size: 15px;
+    text-decoration:none;
+    color:#4B2008;
+    
+}
+
+.button:hover{
+    background-color:brown;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.buttonns{
+    text-decoration: none;
+}
+
+
+
+.pngkonten{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    align-items: center;
+
+}
+
+
+
+    
+.content2{
+    position: absolute;
+    top: 110%;
+    right: 5%;
+    text-decoration: none;
+    font-size: 5px;
+    font-family: poppins;
+    font-weight: 400;
+  
+
+}
+
+
+
+.footer{
+    position: absolute;
+    top: 200%;
+    right: 50%;
+    text-decoration: none;
+    font-size: 5px;
+    font-family: poppins;
+    font-weight: 400;
+
+}
